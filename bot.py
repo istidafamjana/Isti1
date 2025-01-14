@@ -13,7 +13,7 @@ user_data = {}
 
 # التحقق من تاريخ انتهاء الصلاحية
 def check_expiration(update: Update, context):
-    expiration_date = datetime(2025, 1, 28)
+    expiration_date = datetime(2025, 12, 28)
     current_date = datetime.now()
 
     if current_date > expiration_date:
